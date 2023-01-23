@@ -1,8 +1,7 @@
 # Usage: pip install -r requirements.txt
 tensorflow
 termcolor
-pickel
-base64
+pybase64
 pillow
 streamlit
 
