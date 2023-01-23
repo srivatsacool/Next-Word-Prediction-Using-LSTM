@@ -2,17 +2,19 @@
 # **Handdrawn AlphaNumeric Recognizer using CNN**
 #### Made by :- Srivatsa Gorti
 
-**Aim** :- An end-to-end web app , for hand-drawn alphanumeric (Numbers and Letters) recognizer using CNN . The user themself can draw letters or numbers on th canvas and the model would predict/recognizer which letter or number it is with sound effects .An end-to-end web app , for hand-drawn alphanumeric (Numbers and Letters) recognizer using CNN . The user themself can draw letters or numbers on th canvas and the model would predict/recognizer which letter or number it is with sound effects .
+**Aim** :- An end-to-end web app , to predict the next word that might be entered by user next . The app used a type of Deep Learning model that is LSTM . 
 
 
 ## Demo :
-Try Link - https://srivatsacool-handwritten-alphanumeric-recognizer-usi-app-bper2m.streamlit.app/ 
+Try Link - https://srivatsacool-next-word-prediction-using-lstm-app-0jzk15.streamlit.app/
 
-<video src="https://user-images.githubusercontent.com/76219802/212941157-f99cda4f-4912-4e08-9ed9-a47a42d4363e.mp4" controls="controls" style="max-width: 1000px;" autoplay = "autoplay">
+
+<video src="https://user-images.githubusercontent.com/76219802/214120894-e6eca151-aca1-42e1-8c18-d56aa78913f9.mp4" controls="controls" style="max-width: 1000px;" autoplay = "autoplay">
 </video>
 
+
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/76219802/212941341-6e9784a0-7151-4edb-a09d-69b61a9491bb.png" />
+  <img src="https://user-images.githubusercontent.com/76219802/214121284-51ad6243-7092-4b3a-95de-4562cff487f2.png" />
 </p>
 
 ## Requirements
@@ -22,14 +24,11 @@ Install all the needed pyhton Library using requirements.txt
 ```
   pip install requirements.txt
 ```
-streamlit\
-streamlit_drawable_canvas\
-numpy\
-Pillow\
 tensorflow\
-pandas\
-gtts\
-gtts-token
+termcolor\
+pybase64\
+pillow\
+streamlit
 
     
 ## Deployment
@@ -43,7 +42,7 @@ gtts-token
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/76219802/212929653-afa0c5e4-cff3-4d3c-9b04-2447d0113473.png" />
+  <img src="https://user-images.githubusercontent.com/76219802/214121375-7025e6d8-1aee-438c-951b-7f2ecea40380.png" />
 </p>
 
 
