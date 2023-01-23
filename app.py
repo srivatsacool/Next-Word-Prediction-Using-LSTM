@@ -94,7 +94,7 @@ st.markdown("""
             - RNN is also a sub-part of DEEP LEARNING , that allow previous outputs to be used as inputs while having hidden states.
             - The datset used is  **:red[Medium Articles]** , which consists of 6508 records trained for 50 epochs.
             - Dataset Link - https://www.kaggle.com/datasets/dorianlazar/medium-articles-dataset
-            - More details in **:green[GitHub]** Repo :- .
+            - More details in **:green[GitHub]** Repo :- https://github.com/srivatsacool/Next-Word-Prediction-Using-LSTM/ .
             """)  
  
 st.markdown("""
