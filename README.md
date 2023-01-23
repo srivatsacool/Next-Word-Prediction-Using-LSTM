@@ -1,5 +1,5 @@
 
-# **Handdrawn AlphaNumeric Recognizer using CNN**
+# ** Next-Word-Prediction-Using-LSTM\**
 #### Made by :- Srivatsa Gorti
 
 **Aim** :- An end-to-end web app , to predict the next word that might be entered by user next . The app used a type of Deep Learning model that is LSTM . 
@@ -58,11 +58,4 @@ To deploy this project run  :
    streamlit run '.\app.py'
 ```
 
-
-## Features
-
-- Light/dark mode toggle
-- Live previews
-- Recognizes both Letters and Numbers
-- Cross platform
 
