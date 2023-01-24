@@ -33,7 +33,7 @@ streamlit
     
 ## Deployment
 
-
+- **IMP** * For the model file , please ask with appropriate reasons .
 
 - Open Git Bash.
 
