@@ -6,7 +6,7 @@
 
 
 ## Demo :
-Try Link - https://srivatsacool-next-word-prediction-using-lstm-app-0jzk15.streamlit.app/
+Try Link - https://srivat-1--handwritten-alphanumeric-recognizer-using-cnn-1hkq8f.streamlit.app/Next_Words_Prediction_Using_LSTM
 
 
 <video src="https://user-images.githubusercontent.com/76219802/214120894-e6eca151-aca1-42e1-8c18-d56aa78913f9.mp4" controls="controls" style="max-width: 1000px;" autoplay = "autoplay">
