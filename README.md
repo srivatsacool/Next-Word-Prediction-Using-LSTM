@@ -22,7 +22,7 @@ Try Link - https://srivat-1--handwritten-alphanumeric-recognizer-using-cnn-1hkq8
 Install all the needed pyhton Library using requirements.txt 
 
 ```
-  pip install requirements.txt
+ pip install -r requirements.txt
 ```
 tensorflow\
 termcolor\
