@@ -1,8 +1,6 @@
 # Next Word Prediction Using LSTM
 ## Srivatsa Gorti
 
----
-
 ## Abstract
 
 Next Word Prediction is a core problem in Natural Language Processing (NLP) with applications in text autocompletion, chatbots, and intelligent typing systems.  
