@@ -1,5 +1,4 @@
 # Next Word Prediction Using LSTM
-
 ## Srivatsa Gorti
 
 ---
@@ -11,6 +10,19 @@ This project implements a **Next Word Prediction system using Long Short-Term Me
 
 The trained deep learning model predicts the most probable next word for a given input sentence. A **Streamlit-based web application** provides real-time interaction, allowing users to input text and instantly receive predictions.
 
+---
+
+## Demo :
+Try Link - https://srivat-1--handwritten-alphanumeric-recognizer-using-cnn-1hkq8f.streamlit.app/Next_Words_Prediction_Using_LSTM
+
+
+<video src="https://user-images.githubusercontent.com/76219802/214120894-e6eca151-aca1-42e1-8c18-d56aa78913f9.mp4" controls="controls" style="max-width: 1000px;" autoplay = "autoplay">
+</video>
+
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/76219802/214121284-51ad6243-7092-4b3a-95de-4562cff487f2.png" />
+</p>
 ---
 
 ## Introduction
@@ -234,17 +246,6 @@ streamlit run app.py
 **Srivatsa Gorti**
 
 
-## Demo :
-Try Link - https://srivat-1--handwritten-alphanumeric-recognizer-using-cnn-1hkq8f.streamlit.app/Next_Words_Prediction_Using_LSTM
-
-
-<video src="https://user-images.githubusercontent.com/76219802/214120894-e6eca151-aca1-42e1-8c18-d56aa78913f9.mp4" controls="controls" style="max-width: 1000px;" autoplay = "autoplay">
-</video>
-
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/76219802/214121284-51ad6243-7092-4b3a-95de-4562cff487f2.png" />
-</p>
 
 ## Requirements
 
