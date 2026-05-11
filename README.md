@@ -1,6 +1,10 @@
 # Next Word Prediction Using LSTM
 ## Srivatsa Gorti
 
+<p align="center">
+  <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/869788b1-de45-4cbd-a5f3-5a261b3d8f6f.png" alt="Next Word Prediction LSTM Hero Banner" width="100%" />
+</p>
+
 ## Abstract
 
 Next Word Prediction is a core problem in Natural Language Processing (NLP) with applications in text autocompletion, chatbots, and intelligent typing systems.  
@@ -13,14 +17,13 @@ The trained deep learning model predicts the most probable next word for a given
 ## Demo :
 Try Link - https://srivat-1--handwritten-alphanumeric-recognizer-using-cnn-1hkq8f.streamlit.app/Next_Words_Prediction_Using_LSTM
 
-
 <video src="https://user-images.githubusercontent.com/76219802/214120894-e6eca151-aca1-42e1-8c18-d56aa78913f9.mp4" controls="controls" style="max-width: 1000px;" autoplay = "autoplay">
 </video>
-
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/76219802/214121284-51ad6243-7092-4b3a-95de-4562cff487f2.png" />
 </p>
+
 ---
 
 ## Introduction
@@ -60,83 +63,15 @@ The system is divided into three primary layers:
 ### High-Level Architecture
 
 ```
-
 User Input
 ↓
-Text Preprocessing
-(Tokenization & Padding)
+Text Preprocessing (Tokenization & Padding)
 ↓
 Trained LSTM Model
 ↓
 Next Word Prediction
 ↓
 Streamlit Web Interface
-
-```
-
----
-
-## Data Flow Diagram (DFD)
-
-### DFD Level 0 (Context Diagram)
-
-```
-
-+-------+
-| User  |
-+-------+
-|
-| Input Sentence
-v
-+-----------------------------+
-| Next Word Prediction System |
-+-----------------------------+
-|
-| Predicted Word
-v
-+-------+
-| User  |
-+-------+
-
-```
-
----
-
-### DFD Level 1 (Detailed Data Flow)
-
-```
-
-+-------+
-| User  |
-+-------+
-|
-| Text Input
-v
-+---------------------------+
-| Text Preprocessing        |
-| - Tokenization            |
-| - Sequence Padding        |
-+---------------------------+
-|
-| Token Sequence
-v
-+---------------------------+
-| LSTM Prediction Model     |
-+---------------------------+
-|
-| Probability Vector
-v
-+---------------------------+
-| Word Decoder               |
-| (Index → Word Mapping)    |
-+---------------------------+
-|
-| Predicted Next Word
-v
-+-------+
-| User  |
-+-------+
-
 ```
 
 ---
@@ -162,8 +97,6 @@ The text data is processed using the following steps:
 - Creation of input-output word pairs
 - Padding sequences to a fixed length
 
-This ensures consistency and compatibility with the LSTM model.
-
 ---
 
 ## Model Architecture
@@ -187,8 +120,6 @@ The LSTM-based neural network includes:
 - Optimizer: Adam  
 - Evaluation Metric: Prediction Accuracy  
 
-The model learns probability distributions over the vocabulary to predict the most likely next word.
-
 ---
 
 ## Web Application
@@ -197,13 +128,6 @@ The trained model is deployed using **Streamlit**, enabling:
 - Real-time predictions
 - Simple and interactive UI
 - Instant response to user input
-
-### Application Flow
-```
-
-User Input → Preprocessing → LSTM Model → Prediction → UI Output
-
-````
 
 ---
 
@@ -230,60 +154,16 @@ This project demonstrates the successful implementation of a Next Word Predictio
 
 ---
 
-## How to Run the Project
+## How to Run
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-````
+```
 
 ---
 
 ## Author
 
-**Srivatsa Gorti**
-
-
-
-## Requirements
-
-Install all the needed pyhton Library using requirements.txt 
-
-```
- pip install -r requirements.txt
-```
-tensorflow\
-termcolor\
-pybase64\
-pillow\
-streamlit
-
-    
-## Deployment
-
-- **IMP** * For the model file , please ask with appropriate reasons .
-
-- Open Git Bash.
-
-- Change the current working directory to the location where you want the cloned directory.
-- Copy the URL from the repository or use the other options as well . The following is for cloning using the link .\
-
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/76219802/214121375-7025e6d8-1aee-438c-951b-7f2ecea40380.png" />
-</p>
-
-
-- Type `git clone` , and then paste the copied URL of the repository
-- Clone the repository .  
-
-```cmd
-   $ git clone https://github.com/srivatsacool/Handwritten_AlphaNumeric_Recognizer_using_CNN
-
-To deploy this project run  :
-
-```cmd
-   streamlit run '.\app.py'
-```
-
-
+**Srivatsa Gorti**  
+[GitHub](https://github.com/srivatsacool)
